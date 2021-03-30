@@ -1,33 +1,19 @@
-16:45:12.290 [main] INFO  resources.BaseTest - Driver is initialised
-16:46:37.799 [main] INFO  resources.BaseTest - Driver is initialised
-16:46:48.150 [main] INFO  resources.BaseTest - Hitting the url
-16:46:48.167 [main] DEBUG resources.BaseTest - Clicking on Login link
-16:46:49.272 [main] INFO  resources.BaseTest - Login Link is clicked
-16:46:49.272 [main] DEBUG resources.BaseTest - Sending keys in email field
-16:46:49.833 [main] INFO  resources.BaseTest - Email id is provided
-16:46:49.833 [main] DEBUG resources.BaseTest - Sending keys in password field
-16:46:50.317 [main] INFO  resources.BaseTest - password is provided
-16:46:50.317 [main] DEBUG resources.BaseTest - Clicking on Login button
-16:46:50.936 [main] INFO  resources.BaseTest - Login button is clicked
-16:46:50.938 [main] DEBUG resources.BaseTest - Clicking on Forgot Password button
-16:46:51.542 [main] INFO  resources.BaseTest - Forgot Password button is clicked
-16:46:51.542 [main] DEBUG resources.BaseTest - Sending keys in email field
-16:46:52.048 [main] INFO  resources.BaseTest - Email id is provided
-16:46:52.048 [main] DEBUG resources.BaseTest - Clicking on Send Me Instruction button
-16:46:52.529 [main] INFO  resources.BaseTest - Send Me Instruction button is clicked
-16:47:02.975 [main] INFO  resources.BaseTest - Driver is initialised
-16:47:08.962 [main] INFO  resources.BaseTest - Hitting the url
-16:47:08.964 [main] DEBUG resources.BaseTest - Clicking on Login link
-16:47:10.962 [main] INFO  resources.BaseTest - Login Link is clicked
-16:47:10.962 [main] DEBUG resources.BaseTest - Sending keys in email field
-16:47:11.883 [main] INFO  resources.BaseTest - Email id is provided
-16:47:11.884 [main] DEBUG resources.BaseTest - Sending keys in password field
-16:47:12.554 [main] INFO  resources.BaseTest - password is provided
-16:47:12.554 [main] DEBUG resources.BaseTest - Clicking on Login button
-16:47:13.551 [main] INFO  resources.BaseTest - Login button is clicked
-16:47:13.551 [main] DEBUG resources.BaseTest - Clicking on Forgot Password button
-16:47:14.268 [main] INFO  resources.BaseTest - Forgot Password button is clicked
-16:47:14.268 [main] DEBUG resources.BaseTest - Sending keys in email field
-16:47:14.893 [main] INFO  resources.BaseTest - Email id is provided
-16:47:14.893 [main] DEBUG resources.BaseTest - Clicking on Send Me Instruction button
-16:47:15.401 [main] INFO  resources.BaseTest - Send Me Instruction button is clicked
+18:05:34.509 [main] DEBUG resources.BaseTest - Clicking on Send Me Instruction button
+18:05:35.217 [main] INFO  resources.BaseTest - Send Me Instruction button is clicked
+18:05:44.875 [main] INFO  resources.BaseTest - Driver is initialised
+18:05:49.526 [main] INFO  resources.BaseTest - Hitting the url
+18:05:49.529 [main] DEBUG resources.BaseTest - Clicking on Login link
+18:05:51.627 [main] INFO  resources.BaseTest - Login Link is clicked
+18:05:51.628 [main] DEBUG resources.BaseTest - Sending keys in email field
+18:05:52.762 [main] INFO  resources.BaseTest - Email id is provided
+18:05:52.762 [main] DEBUG resources.BaseTest - Sending keys in password field
+18:05:53.646 [main] INFO  resources.BaseTest - password is provided
+18:05:53.647 [main] DEBUG resources.BaseTest - Clicking on Login button
+18:05:54.732 [main] INFO  resources.BaseTest - Login button is clicked
+18:05:54.732 [main] DEBUG resources.BaseTest - Clicking on Forgot Password button
+18:05:55.560 [main] INFO  resources.BaseTest - Forgot Password button is clicked
+18:05:55.560 [main] DEBUG resources.BaseTest - Sending keys in email field
+18:05:56.198 [main] INFO  resources.BaseTest - Email id is provided
+18:05:56.198 [main] DEBUG resources.BaseTest - Clicking on Send Me Instruction button
+18:05:57.183 [main] INFO  resources.BaseTest - Send Me Instruction button is clicked
+18:34:39.509 [main] INFO  resources.BaseTest - Driver is initialised

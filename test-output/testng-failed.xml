@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.Testcase1">
+      <class name="resources.browse">
         <methods>
-          <include name="initialize"/>
-          <include name="Login"/>
-          <include name="teardown"/>
+          <include name="openSTM" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testCases.Testcase1 -->
+      </class> <!-- resources.browse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
