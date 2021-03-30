@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65992" started-at="2021-03-30T11:16:27Z" finished-at="2021-03-30T11:17:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65992" started-at="2021-03-30T11:16:27Z" finished-at="2021-03-30T11:17:33Z">
+      <class name="testCases.Testcase1">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.Testcase1@41a2befb]" name="initialize" is-config="true" duration-ms="20458" started-at="2021-03-30T11:16:27Z" finished-at="2021-03-30T11:16:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@41a2befb]" name="Login" duration-ms="4379" started-at="2021-03-30T11:16:48Z" data-provider="credentials" finished-at="2021-03-30T11:16:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumarshubham2994@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shubham@4u]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.Testcase1@41a2befb]" name="teardown" is-config="true" duration-ms="2608" started-at="2021-03-30T11:16:52Z" finished-at="2021-03-30T11:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.Testcase1@41a2befb]" name="initialize" is-config="true" duration-ms="13823" started-at="2021-03-30T11:16:55Z" finished-at="2021-03-30T11:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@41a2befb]" name="Login" duration-ms="6439" started-at="2021-03-30T11:17:08Z" data-provider="credentials" finished-at="2021-03-30T11:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumarshubham143@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Loveisevol@4u]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.Testcase1@41a2befb]" name="teardown" is-config="true" duration-ms="18243" started-at="2021-03-30T11:17:15Z" finished-at="2021-03-30T11:17:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.Testcase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
