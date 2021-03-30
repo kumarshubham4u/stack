@@ -1,19 +1,12 @@
-18:05:34.509 [main] DEBUG resources.BaseTest - Clicking on Send Me Instruction button
-18:05:35.217 [main] INFO  resources.BaseTest - Send Me Instruction button is clicked
-18:05:44.875 [main] INFO  resources.BaseTest - Driver is initialised
-18:05:49.526 [main] INFO  resources.BaseTest - Hitting the url
-18:05:49.529 [main] DEBUG resources.BaseTest - Clicking on Login link
-18:05:51.627 [main] INFO  resources.BaseTest - Login Link is clicked
-18:05:51.628 [main] DEBUG resources.BaseTest - Sending keys in email field
-18:05:52.762 [main] INFO  resources.BaseTest - Email id is provided
-18:05:52.762 [main] DEBUG resources.BaseTest - Sending keys in password field
-18:05:53.646 [main] INFO  resources.BaseTest - password is provided
-18:05:53.647 [main] DEBUG resources.BaseTest - Clicking on Login button
-18:05:54.732 [main] INFO  resources.BaseTest - Login button is clicked
-18:05:54.732 [main] DEBUG resources.BaseTest - Clicking on Forgot Password button
-18:05:55.560 [main] INFO  resources.BaseTest - Forgot Password button is clicked
-18:05:55.560 [main] DEBUG resources.BaseTest - Sending keys in email field
-18:05:56.198 [main] INFO  resources.BaseTest - Email id is provided
-18:05:56.198 [main] DEBUG resources.BaseTest - Clicking on Send Me Instruction button
-18:05:57.183 [main] INFO  resources.BaseTest - Send Me Instruction button is clicked
-18:34:39.509 [main] INFO  resources.BaseTest - Driver is initialised
+00:35:15.072 [main] DEBUG resources.BaseTest - Sending keys in email field
+00:35:15.320 [main] INFO  resources.BaseTest - Email id is provided
+00:35:15.321 [main] DEBUG resources.BaseTest - Sending keys in password field
+00:35:15.509 [main] INFO  resources.BaseTest - password is provided
+00:35:15.510 [main] DEBUG resources.BaseTest - Clicking on Login button
+00:35:16.076 [main] INFO  resources.BaseTest - Login button is clicked
+00:35:16.076 [main] DEBUG resources.BaseTest - Clicking on Forgot Password button
+00:35:16.692 [main] INFO  resources.BaseTest - Forgot Password button is clicked
+00:35:16.693 [main] DEBUG resources.BaseTest - Sending keys in email field
+00:35:16.891 [main] INFO  resources.BaseTest - Email id is provided
+00:35:16.892 [main] DEBUG resources.BaseTest - Clicking on Send Me Instruction button
+00:35:17.324 [main] INFO  resources.BaseTest - Send Me Instruction button is clicked

@@ -1,37 +1,25 @@
 package testCases;
 
-import java.io.IOException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import pageObjects.ForgotPasswordPage;
 import pageObjects.HomePage;
-import pageObjects.LandingPage;
+
 import pageObjects.LoginPage;
 import resources.BaseTest;
 
+
 public class Testcase1 extends BaseTest {
 	
-	public WebDriver driver;
 	private static Logger log=LogManager.getLogger(BaseTest.class.getName());
-	@BeforeMethod
-	public void initialize() throws IOException {
 
-		driver = initializeBrowser();// Browser Initialization
-		log.info("Driver is initialised");
-		driver.get(prop.getProperty("url"));// hitting the url
-		log.info("Hitting the url");
-
-	}
 
 	@Test(dataProvider = "credentials") // passing DataProvider values into the test case
-	public void Login(String email, String password) throws InterruptedException {
+	 public void Login(String email, String password) throws InterruptedException {
 
 		HomePage objHome = new HomePage(driver); // creating object of HomePage class
 		LoginPage objLogin = new LoginPage(driver);// creating object of LoginPage class
@@ -67,12 +55,7 @@ public class Testcase1 extends BaseTest {
 		log.info("Send Me Instruction button is clicked");
 	}
 
-	@AfterMethod
-	public void teardown() {
-		
-		//closing driver
-		driver.close();
-	}
+	
 
 	// Creating a Data Provider method
 	@DataProvider(name = "credentials")
