@@ -25,14 +25,14 @@ import java.net.URL;
 public class BaseTest {
 
 	public static WebDriver driver=null;
-	public static Properties prop;
+	public Properties prop;
 	public static final String USERNAME = "kumarshubham6";
 	public static final String AUTOMATE_KEY = "RpCymy7LgDJBBsc3kuXh";
 	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
 	@Parameters({ "os", "os_version", "browser", "browser_version" })
 	@BeforeMethod
-	public static void initializeBrowser(String os, String os_version, String browser, String browser_version)
+	public void initializeBrowser(String os, String os_version, String browser, String browser_version)
 			throws IOException {
 
 		prop = new Properties();
