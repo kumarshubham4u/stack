@@ -29,7 +29,7 @@ public class Listeners extends BaseTest implements ITestListener{
 		
 		//Code for Screenshot on failure
 		
-		WebDriver driver=null;
+		//WebDriver driver=null; //for parallel test execution
 		String testMethodName=result.getMethod().getMethodName();
 		
 		
