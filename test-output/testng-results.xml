@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="144332" started-at="2021-03-31T05:04:31Z" finished-at="2021-03-31T05:06:56Z">
+  <suite name="Suite" duration-ms="140455" started-at="2021-03-31T07:13:01Z" finished-at="2021-03-31T07:15:21Z">
     <groups>
     </groups>
-    <test name="Test-chrome" duration-ms="93534" started-at="2021-03-31T05:04:31Z" finished-at="2021-03-31T05:06:05Z">
+    <test name="Test-chrome" duration-ms="60965" started-at="2021-03-31T07:13:01Z" finished-at="2021-03-31T07:14:02Z">
       <class name="testCases.Testcase1">
-        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@52f27fbd]" name="initializeBrowser" is-config="true" duration-ms="24565" started-at="2021-03-31T05:04:31Z" finished-at="2021-03-31T05:04:56Z">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@52f27fbd]" name="initializeBrowser" is-config="true" duration-ms="20445" started-at="2021-03-31T07:13:01Z" finished-at="2021-03-31T07:13:21Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@52f27fbd]" name="Login" duration-ms="18697" started-at="2021-03-31T05:04:56Z" data-provider="credentials" finished-at="2021-03-31T05:05:15Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@52f27fbd]" name="Login" duration-ms="12460" started-at="2021-03-31T07:13:21Z" data-provider="credentials" finished-at="2021-03-31T07:13:34Z">
           <params>
             <param index="0">
               <value>
@@ -49,11 +49,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.Testcase1@52f27fbd]" name="teardown" is-config="true" duration-ms="16777" started-at="2021-03-31T05:05:15Z" finished-at="2021-03-31T05:05:31Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.Testcase1@52f27fbd]" name="teardown" is-config="true" duration-ms="2729" started-at="2021-03-31T07:13:34Z" finished-at="2021-03-31T07:13:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@52f27fbd]" name="initializeBrowser" is-config="true" duration-ms="15272" started-at="2021-03-31T05:05:31Z" finished-at="2021-03-31T05:05:47Z">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@52f27fbd]" name="initializeBrowser" is-config="true" duration-ms="13234" started-at="2021-03-31T07:13:37Z" finished-at="2021-03-31T07:13:50Z">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@52f27fbd]" name="Login" duration-ms="5720" started-at="2021-03-31T05:05:47Z" data-provider="credentials" finished-at="2021-03-31T05:05:52Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@52f27fbd]" name="Login" duration-ms="8954" started-at="2021-03-31T07:13:50Z" data-provider="credentials" finished-at="2021-03-31T07:13:59Z">
           <params>
             <param index="0">
               <value>
@@ -95,15 +95,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.Testcase1@52f27fbd]" name="teardown" is-config="true" duration-ms="12423" started-at="2021-03-31T05:05:52Z" finished-at="2021-03-31T05:06:05Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.Testcase1@52f27fbd]" name="teardown" is-config="true" duration-ms="3099" started-at="2021-03-31T07:13:59Z" finished-at="2021-03-31T07:14:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.Testcase1 -->
     </test> <!-- Test-chrome -->
-    <test name="Test-firefox" duration-ms="49937" started-at="2021-03-31T05:06:06Z" finished-at="2021-03-31T05:06:56Z">
+    <test name="Test-firefox" duration-ms="78909" started-at="2021-03-31T07:14:03Z" finished-at="2021-03-31T07:15:21Z">
       <class name="testCases.Testcase1">
-        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@6f204a1a]" name="initializeBrowser" is-config="true" duration-ms="14172" started-at="2021-03-31T05:06:06Z" finished-at="2021-03-31T05:06:20Z">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@6f204a1a]" name="initializeBrowser" is-config="true" duration-ms="17021" started-at="2021-03-31T07:14:03Z" finished-at="2021-03-31T07:14:20Z">
           <params>
             <param index="0">
               <value>
@@ -129,7 +129,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@6f204a1a]" name="Login" duration-ms="4580" started-at="2021-03-31T05:06:20Z" data-provider="credentials" finished-at="2021-03-31T05:06:25Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@6f204a1a]" name="Login" duration-ms="13648" started-at="2021-03-31T07:14:20Z" data-provider="credentials" finished-at="2021-03-31T07:14:33Z">
           <params>
             <param index="0">
               <value>
@@ -145,11 +145,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.Testcase1@6f204a1a]" name="teardown" is-config="true" duration-ms="3296" started-at="2021-03-31T05:06:25Z" finished-at="2021-03-31T05:06:28Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.Testcase1@6f204a1a]" name="teardown" is-config="true" duration-ms="2156" started-at="2021-03-31T07:14:33Z" finished-at="2021-03-31T07:14:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@6f204a1a]" name="initializeBrowser" is-config="true" duration-ms="21424" started-at="2021-03-31T05:06:28Z" finished-at="2021-03-31T05:06:49Z">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@6f204a1a]" name="initializeBrowser" is-config="true" duration-ms="29976" started-at="2021-03-31T07:14:35Z" finished-at="2021-03-31T07:15:05Z">
           <params>
             <param index="0">
               <value>
@@ -175,7 +175,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@6f204a1a]" name="Login" duration-ms="4993" started-at="2021-03-31T05:06:49Z" data-provider="credentials" finished-at="2021-03-31T05:06:54Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@6f204a1a]" name="Login" duration-ms="7520" started-at="2021-03-31T07:15:05Z" data-provider="credentials" finished-at="2021-03-31T07:15:13Z">
           <params>
             <param index="0">
               <value>
@@ -191,7 +191,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.Testcase1@6f204a1a]" name="teardown" is-config="true" duration-ms="1453" started-at="2021-03-31T05:06:54Z" finished-at="2021-03-31T05:06:56Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.Testcase1@6f204a1a]" name="teardown" is-config="true" duration-ms="8577" started-at="2021-03-31T07:15:13Z" finished-at="2021-03-31T07:15:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

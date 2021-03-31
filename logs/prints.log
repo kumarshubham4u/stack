@@ -1,14 +1,16 @@
-10:36:49.730 [main] DEBUG resources.BaseTest - Clicking on Login link
-10:36:51.311 [main] INFO  resources.BaseTest - Login Link is clicked
-10:36:51.311 [main] DEBUG resources.BaseTest - Sending keys in email field
-10:36:51.763 [main] INFO  resources.BaseTest - Email id is provided
-10:36:51.763 [main] DEBUG resources.BaseTest - Sending keys in password field
-10:36:52.095 [main] INFO  resources.BaseTest - password is provided
-10:36:52.096 [main] DEBUG resources.BaseTest - Clicking on Login button
-10:36:53.001 [main] INFO  resources.BaseTest - Login button is clicked
-10:36:53.002 [main] DEBUG resources.BaseTest - Clicking on Forgot Password button
-10:36:53.768 [main] INFO  resources.BaseTest - Forgot Password button is clicked
-10:36:53.769 [main] DEBUG resources.BaseTest - Sending keys in email field
-10:36:54.119 [main] INFO  resources.BaseTest - Email id is provided
-10:36:54.119 [main] DEBUG resources.BaseTest - Clicking on Send Me Instruction button
-10:36:54.719 [main] INFO  resources.BaseTest - Send Me Instruction button is clicked
+12:44:32.039 [main] DEBUG resources.BaseTest - Clicking on Send Me Instruction button
+12:44:33.683 [main] INFO  resources.BaseTest - Send Me Instruction button is clicked
+12:45:05.819 [main] DEBUG resources.BaseTest - Clicking on Login link
+12:45:07.752 [main] INFO  resources.BaseTest - Login Link is clicked
+12:45:07.754 [main] DEBUG resources.BaseTest - Sending keys in email field
+12:45:08.186 [main] INFO  resources.BaseTest - Email id is provided
+12:45:08.187 [main] DEBUG resources.BaseTest - Sending keys in password field
+12:45:08.475 [main] INFO  resources.BaseTest - password is provided
+12:45:08.475 [main] DEBUG resources.BaseTest - Clicking on Login button
+12:45:09.597 [main] INFO  resources.BaseTest - Login button is clicked
+12:45:09.599 [main] DEBUG resources.BaseTest - Clicking on Forgot Password button
+12:45:12.222 [main] INFO  resources.BaseTest - Forgot Password button is clicked
+12:45:12.222 [main] DEBUG resources.BaseTest - Sending keys in email field
+12:45:12.623 [main] INFO  resources.BaseTest - Email id is provided
+12:45:12.624 [main] DEBUG resources.BaseTest - Clicking on Send Me Instruction button
+12:45:13.338 [main] INFO  resources.BaseTest - Send Me Instruction button is clicked
