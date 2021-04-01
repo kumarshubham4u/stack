@@ -17,8 +17,8 @@ public class browse {
 
 	
 	public WebDriver driver;
-	public static final String USERNAME = "kumarshubham5";
-	public static final String AUTOMATE_KEY = "utFbJZpBqtqoR6Fp3xee";
+	public static final String USERNAME = "kumarshubham6";
+	public static final String AUTOMATE_KEY = "RpCymy7LgDJBBsc3kuXh";
 	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
 	
         // Here to pass multiple test data to the script, I am using @DataProvider annotation of TestNG

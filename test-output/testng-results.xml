@@ -2,200 +2,79 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="140455" started-at="2021-03-31T07:13:01Z" finished-at="2021-03-31T07:15:21Z">
+  <suite name="Default suite" duration-ms="22802" started-at="2021-04-01T04:53:51Z" finished-at="2021-04-01T04:54:14Z">
     <groups>
     </groups>
-    <test name="Test-chrome" duration-ms="60965" started-at="2021-03-31T07:13:01Z" finished-at="2021-03-31T07:14:02Z">
-      <class name="testCases.Testcase1">
-        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@52f27fbd]" name="initializeBrowser" is-config="true" duration-ms="20445" started-at="2021-03-31T07:13:01Z" finished-at="2021-03-31T07:13:21Z">
+    <test name="Default test" duration-ms="22802" started-at="2021-04-01T04:53:51Z" finished-at="2021-04-01T04:54:14Z">
+      <class name="resources.browse">
+        <test-method status="PASS" signature="openSTM(org.openqa.selenium.Platform, java.lang.String, java.lang.String)[pri:0, instance:resources.browse@7cd62f43]" name="openSTM" duration-ms="6369" started-at="2021-04-01T04:53:51Z" data-provider="EnvironmentDetails" finished-at="2021-04-01T04:53:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA[MAC]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[10]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[latest]]>
+                <![CDATA[62.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@52f27fbd]" name="Login" duration-ms="12460" started-at="2021-03-31T07:13:21Z" data-provider="credentials" finished-at="2021-03-31T07:13:34Z">
+        </test-method> <!-- openSTM -->
+        <test-method status="PASS" signature="openSTM(org.openqa.selenium.Platform, java.lang.String, java.lang.String)[pri:0, instance:resources.browse@7cd62f43]" name="openSTM" duration-ms="8349" started-at="2021-04-01T04:53:51Z" data-provider="EnvironmentDetails" finished-at="2021-04-01T04:53:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[kumarshubham2994@gmail.com]]>
+                <![CDATA[WIN8]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Shubham@4u]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.Testcase1@52f27fbd]" name="teardown" is-config="true" duration-ms="2729" started-at="2021-03-31T07:13:34Z" finished-at="2021-03-31T07:13:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@52f27fbd]" name="initializeBrowser" is-config="true" duration-ms="13234" started-at="2021-03-31T07:13:37Z" finished-at="2021-03-31T07:13:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[10]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[latest]]>
+                <![CDATA[62.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@52f27fbd]" name="Login" duration-ms="8954" started-at="2021-03-31T07:13:50Z" data-provider="credentials" finished-at="2021-03-31T07:13:59Z">
+        </test-method> <!-- openSTM -->
+        <test-method status="PASS" signature="openSTM(org.openqa.selenium.Platform, java.lang.String, java.lang.String)[pri:0, instance:resources.browse@7cd62f43]" name="openSTM" duration-ms="16167" started-at="2021-04-01T04:53:51Z" data-provider="EnvironmentDetails" finished-at="2021-04-01T04:54:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[kumarshubham143@gmail.com]]>
+                <![CDATA[WINDOWS]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Loveisevol@4u]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.Testcase1@52f27fbd]" name="teardown" is-config="true" duration-ms="3099" started-at="2021-03-31T07:13:59Z" finished-at="2021-03-31T07:14:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testCases.Testcase1 -->
-    </test> <!-- Test-chrome -->
-    <test name="Test-firefox" duration-ms="78909" started-at="2021-03-31T07:14:03Z" finished-at="2021-03-31T07:15:21Z">
-      <class name="testCases.Testcase1">
-        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@6f204a1a]" name="initializeBrowser" is-config="true" duration-ms="17021" started-at="2021-03-31T07:14:03Z" finished-at="2021-03-31T07:14:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[10]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[latest]]>
+                <![CDATA[57]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@6f204a1a]" name="Login" duration-ms="13648" started-at="2021-03-31T07:14:20Z" data-provider="credentials" finished-at="2021-03-31T07:14:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kumarshubham2994@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Shubham@4u]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- openSTM -->
+        <test-method status="PASS" signature="run()[pri:0, instance:resources.browse@7cd62f43]" name="run" duration-ms="6570" started-at="2021-04-01T04:54:07Z" finished-at="2021-04-01T04:54:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.Testcase1@6f204a1a]" name="teardown" is-config="true" duration-ms="2156" started-at="2021-03-31T07:14:33Z" finished-at="2021-03-31T07:14:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@6f204a1a]" name="initializeBrowser" is-config="true" duration-ms="29976" started-at="2021-03-31T07:14:35Z" finished-at="2021-03-31T07:15:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[latest]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@6f204a1a]" name="Login" duration-ms="7520" started-at="2021-03-31T07:15:05Z" data-provider="credentials" finished-at="2021-03-31T07:15:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kumarshubham143@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Loveisevol@4u]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.Testcase1@6f204a1a]" name="teardown" is-config="true" duration-ms="8577" started-at="2021-03-31T07:15:13Z" finished-at="2021-03-31T07:15:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testCases.Testcase1 -->
-    </test> <!-- Test-firefox -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- run -->
+      </class> <!-- resources.browse -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
